@@ -28,6 +28,10 @@ h1,h2,h3,h4,h5{
 nav{
   display: flex;
   justify-content: flex-end;
+  background-color: #fff;
+  top: 0;
+  position: sticky;
+  border-bottom: solid 1px grey;
 }
 ul{
   display: flex;
@@ -36,4 +40,16 @@ ul{
 li{
   list-style: none;
   padding-left: 10px;
+}
+
+.row{
+  width: 100%;
+}
+
+.col{
+  width: 50%;
+}
+
+.right{
+  float: right;
 }
