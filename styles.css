@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5{
 }
 
 .main{
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ li{
 }
 
 .col{
-  width: 33%;
+  width: 40%;
 }
 
 .right{
@@ -69,4 +69,34 @@ a{
 a:hover{
   border-bottom: 1px solid rgba(0,0,0,1);
   color: #000;
+}
+
+footer{
+  padding: 50px 0;
+  border-top: solid 1px grey;
+}
+footer p{
+  display: inline;
+}
+footer span{
+  float: right;
+}
+
+@media(max-width:968px){
+  .main{
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .col{
+    min-width: 100%;
+  }
+  .right{
+    float: left;
+  }
+  footer p{
+    display: block;
+  }
+  footer span{
+    float: left;
+  }
 }
