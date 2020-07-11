@@ -100,3 +100,22 @@ footer span{
     float: left;
   }
 }
+
+@media(max-width:868px){
+  .main{
+    max-width: 100%;
+    padding: 0 30px;
+  }
+  .col{
+    min-width: 100%;
+  }
+  .right{
+    float: left;
+  }
+  footer p{
+    display: block;
+  }
+  footer span{
+    float: left;
+  }
+}
